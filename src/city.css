@@ -1,0 +1,55 @@
+
+.picture{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 3rem;
+}
+
+.picture> img{
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+
+.city-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.city-destination{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 3rem;
+    column-gap: 2rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.description> ul{
+    color: rgb(241, 15, 7);
+    font-size: 25px;
+}
+
+.button{
+    border: 2px solid black;
+    font-size: 20px;
+    
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        background-color: bisque;
+    }
+}
+
+
+
+
+
+
+
